@@ -5,4 +5,5 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable,
          :confirmable
   include DeviseTokenAuth::Concerns::User
+  #user model
 end
