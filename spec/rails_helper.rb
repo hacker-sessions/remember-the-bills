@@ -57,4 +57,6 @@ RSpec.configure do |config|
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
   config.include Devise::Test::ControllerHelpers, type: :controller
+  config.include Requests::JsonHelpers, type: :request
+  config.include Requests::HeaderHelpers, type: :request
 end
