@@ -6,6 +6,6 @@ RSpec.describe Profile, type: :model do
       @profile = create(:profile)
     end
 
-    it {expect(@profile).to be_valid}
+    it { expect(@profile).to be_valid }
   end
 end
